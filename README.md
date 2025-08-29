@@ -1,1 +1,1 @@
-For Programming One class, contains exercises about Java in Hanoi University.
+For the Programming One class, which contains exercises on basic Java at Hanoi University.

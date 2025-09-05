@@ -1,11 +1,9 @@
-package Practice.Exercises.Week02.maths;
-
 import java.util.Scanner;
 
 public class TriangleArea {
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
-            System.out.print("Enter three points for a triangle: ");
+            System.out.println("Enter three points for a triangle: ");
             double x1 = scanner.nextDouble();
             double y1 = scanner.nextDouble();
             double x2 = scanner.nextDouble();
@@ -17,9 +15,7 @@ public class TriangleArea {
             double side3 = Math.pow((Math.pow(x1 - x3, 2) + Math.pow(y1 - y3, 2)), 0.5);
             double s = (side1 + side2 + side3) / 2;
             double area = Math.sqrt(s * (s - side1) * (s - side2) * (s - side3));
-            System.out.println("The area of the triangle is " + area);
+            System.out.printf("The area of the triangle is %.1f%n", area);
         }
     }
 }
-
-

@@ -1,6 +1,6 @@
 public class Activity5 {
-    public static void main(String[]args){
-        System.out.println("Hello, World!");
+    public static void main(String[] args) {
+        System.out.println("Hello, World!"); // task: "print Hello World!"
     }
-
 }
+

@@ -1,5 +1,3 @@
-package Practice.Exercises.Week02.maths;
-
 public class DisplayingTheCurrentTime {
     public static void main(String[] args) {
         long currentTimeMillis = System.currentTimeMillis();
@@ -12,4 +10,5 @@ public class DisplayingTheCurrentTime {
         System.out.println(currentHour + ":" + currentMinute + ":" + currentSecond);
     }
 }
+
 
